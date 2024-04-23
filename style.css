@@ -128,6 +128,19 @@ body {
   border-radius: 50%;
 }
 
+.face-mask::before {
+  position: absolute;
+  content: "🤎";
+  font-size: calc(var(--emoji-size) * .15);
+  top: calc(var(--emoji-size) * -.03);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .face-mask {
   width: calc(var(--emoji-size) * .5);
   height: calc(var(--emoji-size) * .25);
